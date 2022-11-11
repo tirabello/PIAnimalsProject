@@ -23,13 +23,30 @@ public class AnimalProject {
         textos.CriacaoPersonagem();
         textos.nome = scan.nextLine();
         
+        textos.Animal();
+        String NomeAnimal = scan.nextLine();
+        System.out.println("Eu, " + NomeAnimal + " preciso de voce!!");
+        System.out.println("Vamos comecar nossa historia!!\n");
         
+        System.out.println("Em um dia ensolarado em Downsville, num suburbio do bairro rochdagua,");
+        System.out.println("fui tirado do meu lar bruscamente, e voce, " + textos.nome + ", entrou em desespero.");
+        System.out.println("Pouco tempo depois, o telefone tocou, era ele..... ");
+        System.out.println("O famoso Shark Thank, dono do monopolio dos estudios SharkDowns, e apresentador do programa ");
+        System.out.println("Cidade Downlerta, o programa onde e apresentado inumeros shows, inclusive o 'Quizz ShowDown!!'");
+        System.out.println("um jogo que busca participantes ao redor de Downsville para concorrer ao premio de 1 MILHAO DE DOWNLARES!!\n");
+        System.out.println("Enfim, acabei falando demais, voltando a historia....");
+        System.out.println("O famoso Shak Thank te convidou para o 'Quizz ShowDown', para concorrer o premio em downlares.");
+        System.out.println("Voce, " + textos.nome + " sabendo disso, decide aproveitar a oportunidade para e, com o dinheiro do programa, pagar o resgate de seu precioso animal.");
         
+        System.out.println("---------------------CHEGANDO NO LOCAL--------------------------------------------------------------------------\n");
+        System.out.println("SHARK: Bem vindo SR." + textos.nome+ " vamos comecar?");
+        System.out.println("Deixe-me lembrardes que o premio final e de 1 MILHAO DE DOWNLARES,\n esse programa tambem esta sendo transmitido para todos os nossos ColaboraDowners que estao em casa!");
+     
         //perguntasssssss
         while(continuar == 1){
             
             System.out.println("Pergunta 1: ");
-            System.out.println("Quantas casas decimais tem o numero PI?");
+            System.out.println("Quantas casas decimais tem o numero PI?" );
             System.out.println("1) duas");
             System.out.println("2) infinitas");
             System.out.println("3) centenas");
