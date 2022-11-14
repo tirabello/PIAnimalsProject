@@ -15,7 +15,7 @@ public class AnimalProject {
         Introducson textos = new Introducson();
         
         textos.introducao();
-        
+        System.out.println("HAHAHAHA ESTOU TESTANDO O GIT");
         System.out.println("----------------------------");   
         System.out.println("WELCOME TO THE ANIMAL PROJECT");
         System.out.println("----------------------------");
