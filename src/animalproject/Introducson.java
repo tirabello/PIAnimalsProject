@@ -19,6 +19,14 @@ public class Introducson {
         System.out.println("Primeiramente, precisamos saber seu nome.");
         System.out.println("Como voce quer ser chamado?");
     }
+    public void textoFinalA(){
+        System.out.println("RESPOSTA ERRADA");
+        System.out.println("SHARK: Poxa, errar na primeira pergunta é ruim hein?");
+        System.out.println("SHARK: Ainda mais uma pergunta facil dessas.");
+        System.out.println("SHARK: Infelizmente, voce nao conseguiu nada.");
+        System.out.println("----FINAL A ----");
+        System.out.println("estud[A]r mais");
+    }    
     
     public void textoFinalC(){  
         System.out.println("BANDIDOS: VOCE ACHA QUE ISSO E SUFICIENTE??? O SEU QUERIDO BICHINHO VALE SO ISSO??");
@@ -30,7 +38,41 @@ public class Introducson {
         System.out.println("Tinha todo dinheiro do mundo, mas de que valia sem seu querido amigo? Depois disso nunca mais se ouviu falar de " + nome);
         System.out.println("Alguns acreditam que foi morar no meio do mato, outros acreditam num destino pior... \n \n");
     }
- 
+    
+    public void textoFinalE(){
+        System.out.println("SHARK: Ele tem poderes misticos, poderes inimaginaveis, que nao conseguimos compreender a amplitude");
+        System.out.println("SHARK: Entao, surgiu a ideia de roubarmos!! Esse animal vale um dinheirao sabe ");
+        System.out.println("SHARK: Claro, eu nao pretendia te deixar desolado");
+        System.out.println("SHARK: Mas tambem nao podia te dar o dinheiro de graca, como isso ia pegar pra mim?? nos vivemos numa meritocracia voce sabe...");
+        System.out.println("SHARK: Por isso te convidei para meu jogo, esse dinheiro e uma microparte do total que vou ganhar com a venda dessa especime");
+        System.out.println("SHARK: MAS NAO ERA PRA VOCE TER CHEGADO ATE O FIM, VOCE DEVIA TER PARADO QUANDO TEVE A CHANCE");
+        System.out.println("SHARK: NOS IAMOS LUCRAR COM SEU SOFRIMENTO");
+        System.out.println("SHARK: consigo ate ver as manchetes... pobre jovem que perdeu seu querido pet");
+        System.out.println("SHARK: foi para um jogo de perguntas salva-lo e mesmo assim nao conseguiu. Voce seria famoso(e eu lucraria como seu mentor huhahaha)");
+        System.out.println("SHARK: ...mas agora voce ja e um milionario, nao tem pra que fazer isso, voce nao vale mais nada pra mim, infelizmente voce nao podera sair vivo daqui.");
+        System.out.println("Nesse momento... voce escuta um barulho vindo dos fundos");
+        switch(Animal){
+            case 1: 
+                System.out.println("auau ");
+            break;
+            case 2:
+                System.out.println("miau miau");
+            break; 
+            case 3:
+                 System.out.println("glub glub");
+            break;
+            case 4:
+                 System.out.println("sh!sh!sh!");
+            break;
+            case 5:
+                 System.out.println(" cra! cra!");
+            break;
+            case 6:
+                 System.out.println("BOOM! BOoM!");
+            break;
+        }  
+        System.out.println("CHEFE ELE ESCAPOU DA JAULA!!!");
+    }
   
     public void Animal(){
         System.out.println("Agora, escolha o seu companheiro nessa jornada: ");
@@ -119,7 +161,49 @@ public class Introducson {
                  System.out.println("BOOM! BOoM! (Boa sorte daqui pra frente, por que eu nao vou conseguir te ajudar mais)");
             break;
         }
-        
-    }   
-    
+    }  
+    public void AnimalVinganca(){
+        switch(Animal){
+            case 1: 
+                System.out.println("auau (Vamos nos vingar deles mestre!)");
+            break;
+            case 2:
+                System.out.println("miau miau (Esse homem vai pagar pelo que fez comigo)");
+            break; 
+            case 3:
+                 System.out.println("glub glub (esse Shark vai ter oq merece!)");
+            break;
+            case 4:
+                 System.out.println("sh!sh!sh! (Vamos nos vingar.)");
+            break;
+            case 5:
+                 System.out.println(" cra! cra! (Esse feiuxo vai sofrer oque merece c;)");
+            break;
+            case 6:
+                 System.out.println("BOOM! BOoM! (Deixe comigo, ele vai pagar pelo que fez!!)");
+            break;
+        }
+    }
+    public void AnimalErrou(){
+        switch(Animal){
+            case 1: 
+                System.out.println("auau (Nao desista mestre!!!)");
+            break;
+            case 2:
+                System.out.println("miau miau (Nao desista, eu preciso de voce)");
+            break; 
+            case 3:
+                 System.out.println("glub glub (Nao desista, eu preciso da sua ajuda)");
+            break;
+            case 4:
+                 System.out.println("sh!sh!sh! (Aprenda com seus erros e nao desista.)");
+            break;
+            case 5:
+                 System.out.println(" cra! cra! (Voce consegue fofete, por favor nao desista c;)");
+            break;
+            case 6:
+                 System.out.println("BOOM! BOoM! (Tente de novo, nao desista!!)");
+            break;
+        }
+    }
 }
